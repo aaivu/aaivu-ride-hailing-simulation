@@ -102,22 +102,3 @@ The movement of a driver during the simulation can also be visualized. The start
 analyzer.plot_driver_movement(driver_id=1,number_of_trips=20,first_trip=0)
 ```
 ![alt text](images/driver_movement.png "Movement of driver 1")
-### Directory Structure
-Overall directory structure of the simulation framework.
-
-    ├── RideSimulator
-        ├── data
-            ├── lat_points : Sampled distribution of latitude points
-            ├── lon_points : Sampled distribution of longitude points
-            ├── trip_distances : Sampled distribution of trip distances
-            ├── trips_per_min : Sampled distribution of numbe of trips per min
-        ├── Driver.py : Driver class representing the structure of the agent and logic
-        ├── Grid.py : Grid class handling location related functionalities 
-        ├── HexGrid.py : Overlay on grid to 
-        ├── HexTile.py : 
-        ├── reward_parameters.py : 
-        ├── sim_analyzer.py : 
-        ├── State.py :
-        ├── taxi_sim.py :
-        ├── Trip.py :
-        └── TripGenerator.py :
